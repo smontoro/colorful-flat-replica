@@ -1,0 +1,76 @@
+body {
+	margin: 0 auto;
+	font-family:'Merriweather Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+}
+
+nav {
+	background: #a4d0d9;
+	height: 75px;
+	padding: 15px 250px 0 250px;
+}
+
+nav h1 {
+	display: inline-block;
+	font-size: 18px;
+}
+
+nav ul {
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	padding-left:50px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+/**HEADER**/
+
+header {
+	height: 500px;
+	text-align: center;
+}
+
+h1 {
+	width: 49%;
+	display: inline-block;
+
+}
+
+header div {
+	width: 49%;
+	display: inline-block;
+}
+
+header div img {
+	width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
