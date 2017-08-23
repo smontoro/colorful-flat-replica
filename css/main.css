@@ -10,16 +10,22 @@ h1 {
 nav {
 	background: #a4d0d9;
 	height: 75px;
-	padding: 15px 250px 0 250px;
 }
 
-nav h1 {
+.logo {
 	display: inline-block;
-	font-size: 18px;
+	position: absolute;
+	left: 20%;
+}
+
+.logo h1 {
+	display: inline-block;
 }
 
 nav ul {
-	float: right;
+	position: absolute;
+	right: 20%;
+    bottom: 91%;
 }
 
 nav li {
@@ -35,24 +41,107 @@ nav li a {
 /**HEADER**/
 
 header {
-	height: 500px;
+	height: 375px;
 	text-align: center;
+	background: #a4d0d9;
 }
 
-h1 {
-	width: 49%;
+header h1 {
 	display: inline-block;
+	color: white;
+	position: absolute;
+	top: 25%;
+	left: 22%;
+	letter-spacing: 3px;
 
 }
 
-header div {
-	width: 49%;
-	display: inline-block;
+header img {
+	width: 20%;
+	position: absolute;
+	top: 20%;
+	left: 53%;
 }
 
-header div img {
+/**FEATURES**/
+
+.features {
+	height: 300px;
+}
+
+.features-wrapper {
+	padding: 50px 0 0 250px;
+}
+
+.features img {
+	width: 20%;
+}
+
+.feature-left, .feature-center, .feature-right {
 	width: 25%;
+	display: inline-block;
+	text-align: center;
+	font-size: 13px;
 }
+
+.feature-center, .feature-right {
+	padding-left: 35px;
+}
+
+.features p {
+	line-height: 20px;
+	color: grey;
+}
+
+/**WORKS**/
+
+.works {
+	height: 600px;
+	background: #9AD5A7;
+	text-align: center;
+	padding: 25px 0 50px 0;
+}
+
+.works h1 {
+	color: white;
+	letter-spacing: 3px;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.works p {
+	font-size: 10px;
+	color: white;
+	margin: 0;
+	width: 250px;
+	display: inline-block;
+	font-weight: lighter;
+}
+
+.works li {
+	display: inline-block;
+	padding: 50px 0 0 30px;
+}
+
+.works ul {
+	padding-right: 75px;
+}
+
+.works li a {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.images-top img {
+	padding: 20px;
+}
+
+.images-bottom img {
+	padding: 20px;
+}
+
 
 
 
