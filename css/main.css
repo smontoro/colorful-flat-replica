@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+}
+
 body {
 	margin: 0 auto;
 	font-family:'Merriweather Sans', sans-serif;
@@ -96,7 +100,7 @@ header img {
 /**WORKS**/
 
 .works {
-	height: 600px;
+	height: 650px;
 	background: #9AD5A7;
 	text-align: center;
 	padding: 25px 0 50px 0;
@@ -142,19 +146,199 @@ header img {
 	padding: 20px;
 }
 
+.works button {
+	background: white;
+	color: grey;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+/**TEMPLATE**/
+
+.template {
+	height: 500px;
+	background: #F1F1F1;
+	padding: 0 20%;
+}
+
+.template p {
+	color: grey;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+hr {
+	color: grey;
+	font-weight: lighter;
+}
+
+.half-template {
+	height: 49%;
+}
+
+.template-right {
+	display: inline-block;
+	position: absolute;
+	left: 40%;
+	width: 40%;
+}
+
+.template-left {
+	display: inline-block;
+	position: absolute;
+	width: 40%;
+}
+
+.template img {
+	width: 25%;
+}
+
+.left-img {
+	position: relative;
+	left: 75%;
+}
+
+.template-top {
+	padding: 20px 0 20px 0;
+}
+
+.template-bottom {
+	padding: 20px 0;
+}
+
+.template-right button {
+	background: #9AD5A7;
+	color: white;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+}
+
+.template-left button {
+	background: #a4d0d9;
+	color: white;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+}
+
+/**TEAM**/
+
+.team {
+	height: 500px;
+	background: #DDBAC5;
+	margin: 0;
+	text-align: center;
+}
 
 
 
+.team-member {
+	width: 250px;
+	height: 350px;
+}
+
+.user-icon {
+	color: white;
+	background:#F1F1F1;
+	height: 50%;
+}
+
+.user-icon i {
+	padding-top: 55px;
+}
+
+.employee-info {
+	background: white;
+}
+
+.employee-info h5 {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	padding: 10px 0 5px 0;
+}
+
+.employee-info h6 {
+	font-size: 14px;
+}
+
+.employee-info p {
+	font-size: 12px;
+	color: grey;
+	font-weight: lighter;
+	padding: 5px 20px;
+	line-height: 15px;
+}
+
+.employee-info ul {
+	display: inline-block;
+	padding-right: 44px;
+}
+
+.employee-info li {
+	display: inline-block;
+	padding: 5px 5px 10px 5px;
+}
+
+.fa-facebook-official {
+	color: blue;
+}
+
+.fa-tumblr-square {
+	color: #0366D6;
+}
+
+.fa-pinterest {
+	color: red;
+}
+
+ 
 
 
 
+/**
 
+.team h1 {
+	margin: 0;
+	color: white;
+}
 
+.user-icon {
+	display: inline-block;
+	background: #E9E6E7;
+	width: 200px;
+	height: 150px;
+	color: white;
+}
 
+.employee {
+	width: 200px;
+	height: 150px;
+	background: white;
+	padding-top: 5px;
+}
 
+.employee p {
+	margin: 0;
+	font-size: 12px;
+	color: grey;
+	font-weight: lighter;
+	padding: 0 20px;
+}
 
+.employee h5, h6 {
+	margin: 10px 0;
+}
 
+.employee ul {
+	margin: 0;
+}
 
+.employee li {
+	display: inline-block;
+}
 
 
 
