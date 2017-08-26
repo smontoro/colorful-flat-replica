@@ -74,7 +74,7 @@ header img {
 }
 
 .features-wrapper {
-	padding: 50px 0 0 250px;
+	padding: 75px 0 0 250px;
 }
 
 .features img {
@@ -227,27 +227,45 @@ hr {
 /**TEAM**/
 
 .team {
-	height: 500px;
+	height: 550px;
 	background: #DDBAC5;
 	margin: 0;
 	text-align: center;
 }
 
+.team-title {
+	height: 70px;
+	padding: 25px;
+}
 
+.team h1 {
+	color: white
+}
+
+.title-text {
+	font-size: 11px;
+	color: white;
+	margin: 0;
+	width: 253px;
+	display: inline-block;
+	font-weight: lighter;
+}
 
 .team-member {
-	width: 250px;
+	width: 210px;
 	height: 350px;
+	display: inline-block;
+	padding: 30px;
 }
 
 .user-icon {
 	color: white;
 	background:#F1F1F1;
-	height: 50%;
+	height: 40%;
 }
 
 .user-icon i {
-	padding-top: 55px;
+	padding-top:6px;
 }
 
 .employee-info {
@@ -294,51 +312,168 @@ hr {
 	color: red;
 }
 
- 
-
-
-
-/**
-
-.team h1 {
+/** RECENT POSTS**/
+.recent-posts {
+	height: 550px;
+	background: #a4d0d9;
 	margin: 0;
-	color: white;
+	text-align: center;
 }
 
-.user-icon {
+.posts-title {
+	height: 70px;
+	color: white;
+	padding:20px 0;
+}
+
+.post {
+	width: 255px;
+	height: 350px;
+	padding: 12px;
 	display: inline-block;
-	background: #E9E6E7;
-	width: 200px;
-	height: 150px;
+}
+
+.post-icon {
 	color: white;
+	background:#F1F1F1;
+	height: 40%;
 }
 
-.employee {
-	width: 200px;
-	height: 150px;
+.post-icon i {
+	padding-top:44px;
+}
+
+.post-info {
 	background: white;
-	padding-top: 5px;
+	padding: 12px 0;
 }
 
-.employee p {
-	margin: 0;
+.post-info h5 {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	padding: 10px 0 5px 0;
+}
+
+.post-info h6 {
+	font-size: 14px;
+}
+
+.post-info p {
 	font-size: 12px;
 	color: grey;
 	font-weight: lighter;
-	padding: 0 20px;
+	padding: 12px 20px;
+	line-height: 15px;
 }
 
-.employee h5, h6 {
-	margin: 10px 0;
+.post h5 {
+	font-size: 18px;
 }
 
-.employee ul {
-	margin: 0;
+.post h6 {
+	font-weight: lighter;
+	color: grey;
+	font-size: 12px;
 }
 
-.employee li {
+.recent-posts button {
+	background: white;
+	color: grey;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	margin: -25px auto;
+}
+
+/**FOOTER**/
+footer {
+	height: 600px;
+	background: #3C3C3C;
+	text-align: center;
+}
+
+.footer-title {
+	padding-top: 45px;
+}
+
+footer h1 {
+	color: grey;
+}
+
+input, textarea {
+	display: block;
+	margin: 15px auto;
+	border: none;
+	border-radius: 5px;
+	width: 30%;
+}
+
+input {
+	height: 25px;
+}
+
+textarea {
+	height: 150px;
+}
+
+footer button {
+	background: white;
+	color: #3C3C3C;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	margin: 25px auto 55px auto;
+}
+
+hr {
+	width: 65%;
+	margin: 0 auto;
+}
+
+footer li {
 	display: inline-block;
 }
+
+footer ul {
+	float: left;
+	padding-left: 17%;
+	padding-top: 25px;
+}
+
+.fa-footer {
+	color: grey;
+	padding: 0 3px;
+}
+
+.copyright {
+	color: grey;
+	display: inline-block;
+	float: right;
+	padding-right: 17%;
+	padding-top: 25px;
+	font-size: 11px;
+	font-weight: lighter;
+}
+
+footer span {
+	color: yellow;
+}
+
+form {
+	padding-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
